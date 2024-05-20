@@ -1,0 +1,189 @@
+html, body {
+    min-height: 100%;
+    }
+    body, div, form, input, select, p { 
+    padding: 0;
+    margin: 0;
+    
+    outline: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    }
+    h1 {
+    margin: 0;
+    font-weight: 400;
+    }
+    h3 {
+    margin: 9.2px 0;
+    color: #ff0000;
+    }
+    .main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    }
+    form {
+    width: 100%;
+    padding: 20px;
+    }
+    fieldset {
+    border: none;
+    border-top: 1px solid #FFA3B7;
+    }
+    .account-details, .personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .account-details >div, .personal-details >div >div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    .account-details >div, .personal-details >div, input, label {
+    width: 100%;
+    }
+    label {
+    padding: 0 5px;
+    text-align: right;
+    vertical-align: middle;
+    }
+    input {
+    padding: 5px;
+    vertical-align: middle;
+    }
+    .checkbox {
+    margin-bottom: 10px;
+    }
+    select, .children, .gender, .bdate-block {
+    width: calc(100% + 26px);
+    padding: 5px 0;
+    }
+    select {
+    background: transparent;
+    }
+    .gender input {
+    width: auto;
+    } 
+    .gender label {
+    padding: 0 5px 0 0;
+    } 
+    .bdate-block {
+    display: flex;
+    justify-content: space-between;
+    }
+    .birthdate select.day {
+    width: 35px;
+    }
+    .birthdate select.mounth {
+    width: calc(100% - 94px);
+    }
+    .birthdate input {
+    width: 38px;
+    vertical-align: unset;
+    }
+    .checkbox input, .children input {
+    width: auto;
+    margin: -2px 10px 0 0;
+    }
+    .checkbox a {
+    color: #8ebf42;
+    }
+    .checkbox a:hover {
+    color: #82b534;
+    }
+    button {
+        font-size: 20%;
+    }
+    
+    
+    @media (min-width: 568px) {
+    .account-details >div, .personal-details >div {
+    width: 50%;
+    }
+    label {
+    width: 40%;
+    }
+    input {
+    width: 60%;
+    }
+    select, .children, .gender, .bdate-block {
+    width: calc(60% + 16px);
+    }
+    }
+    #proje_suresi,
+    #proje_yili {
+        width: 29%; /* İstenilen yüksekliği ayarlayabilirsiniz */
+        /* Diğer stillendirme kodları */
+    }
+    th, td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 6px;
+                width: 2%;
+               
+            }
+    
+            th {
+                background-color: #ff9999;
+                color: white;
+            
+            }
+    
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            .ana-sayfa-buton {
+        padding: 15px 30px;
+        margin: 0px;
+        font-size: 20px;
+        cursor: pointer;
+    
+        color: #fff;
+        padding: 7px 20px; /* Metin ile kenarlık arasındaki boşlukları azalttım */
+        border: 2px solid white; /* Beyaz renkte 2 piksel kalınlığında bir kenarlık oluşturuyor */
+        border-radius: 2px; /* Kenar yuvarlaklığı */
+        text-decoration: none; 
+    
+        position: absolute;
+        top: 8px;
+        right: 10px;
+    }
+    .top-bar {
+            background-color: red;
+            color: white;
+            text-align: left; /* Sol'a hizalama */
+            font-weight: bold;
+            font-size: 24px;
+                padding: 15px 20px; /* Padding ayarlandı */
+    
+    }
+    .sil-div {
+        font-weight: bold;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    p {
+        color: #ff0000;
+        margin-left: 32%;
+        font-size: 120%;
+        
+    }
+    .guncelleButton {
+ width: 20%;
+ background: #ff0000;
+ border: 2px solid white;
+ color: #fff;
+ font-size: 130%;
+}
+.boşluklu-span {
+    margin-right: 39.3%; /* Sağ tarafa 10 piksel boşluk ekle */
+}
+
+    
+    

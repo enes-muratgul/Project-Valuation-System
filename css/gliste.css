@@ -1,0 +1,90 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+}
+.top-bar {
+background-color: red;
+color: white;
+text-align: left; 
+padding: 15px 20px; 
+font-weight: bold;
+font-size: 24px;
+}
+.container {
+text-align: center;
+margin-bottom: 20px;
+}
+h1 {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 42px;
+margin-bottom: 20px;
+font-weight: bold;
+}
+.button-group {
+display: flex;
+justify-content: right;
+}
+.button-group button {
+padding: 15px 30px;
+margin: 0 10px;
+font-size: 20px;
+cursor: pointer;
+background-color: #ff0000;
+color: #fff;
+border: none;
+border-radius: 10px;
+transition: background-color 0.3s ease;
+}
+.button-group button:hover {
+background-color: #cc0000;
+}
+table {
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th, td {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 10px;
+}
+th {
+background-color: #ff9999;
+color: white;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+a {
+color: red;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+.container {
+text-align: center;
+}
+h2 {
+margin-top: 20px;
+color: red;
+}
+.ana-sayfa-buton {
+padding: 15px 30px;
+margin: 0px;
+font-size: 20px;
+cursor: pointer;
+color: #fff;
+padding: 7px 20px; 
+border: 2px solid white; 
+border-radius: 2px;
+text-decoration: none; 
+position: absolute;
+top: 8px;
+right: 10px;
+}
